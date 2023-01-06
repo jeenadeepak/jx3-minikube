@@ -11,6 +11,15 @@ spec:
     - name: ok
     - name: test
     scheduler: in-repo
+  jenkinsServers:
+  - groups:
+    - owner: jeenadeepak
+      provider: https://github.com
+      providerKind: github
+      repositories:
+      - name: java
+        scheduler: in-repo
+    server: myjenkins
   slack:
     channel: '#jenkins-x-pipelines'
     kind: failureOrNextSuccess
