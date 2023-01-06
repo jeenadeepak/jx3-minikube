@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: new
     - name: ok
     - name: test
     scheduler: in-repo
